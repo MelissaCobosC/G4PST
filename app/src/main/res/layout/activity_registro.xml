@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ChairTracker"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <!-- Agrega una ImageView con la imagen de las sillas y la mesa -->
+    <ImageView
+        android:layout_width="331dp"
+        android:layout_height="329dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Imagen de ChairTracker"
+        android:src="@drawable/your_image" />
+
+    <Button
+        android:id="@+id/buttonViewRecords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Registros"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Agrega un botón de regreso -->
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
